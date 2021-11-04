@@ -5,7 +5,14 @@
     padding: 0;
 }
 
-navbar { 
+.navbar { 
 
+    display: flex;
+    justify-content: space-around;
 
+}
+
+.listcontainer li {
+
+    display: inline;
 }
