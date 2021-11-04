@@ -5,14 +5,63 @@
     padding: 0;
 }
 
-.navbar { 
+
+:root {
+
+    
+}
+.navbar {  /* Navbar start */
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+
+}
+
+.listcontainer {
+
+margin-top: 40px;
+margin-right: 400px ;
 
 }
 
 .listcontainer li {
 
     display: inline;
+    margin-left: 40px;
+
+}
+
+.buttoncontainer {
+
+    margin-left: 600px;
+    padding-bottom: 50px;
+    --buttonwidth: 100px;
+    --buttonheight: 35px
+
+}
+
+#signinbutton{
+    width: var(--buttonwidth);
+    height: var(--buttonheight);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border-style: hidden;
+    background-color: #FF0000;
+    color: #fff;
+}
+
+#signupbutton {
+    width: var(--buttonwidth);
+    height: var(--buttonheight);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border: solid 1px #FF0000;
+    background-color: #fff;
+    color:#FF0000;
 }
