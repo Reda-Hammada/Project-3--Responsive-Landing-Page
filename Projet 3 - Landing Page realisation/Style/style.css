@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
 
     box-sizing: border-box;
@@ -8,7 +10,8 @@
 
 :root {
 
-    
+    --universal-font: 'Roboto', sans-serif;
+    --universal-color: #FF0000;
 }
 .navbar {  /* Navbar start */
 
@@ -28,15 +31,25 @@ margin-right: 400px ;
 
     display: inline;
     margin-left: 40px;
+    font-family: var(--universal-font);
+    cursor: pointer;
+    
+}
 
+.listcontainer li:hover {
+
+    opacity: 0.6;
 }
 
 .buttoncontainer {
 
     margin-left: 600px;
-    padding-bottom: 50px;
     --buttonwidth: 100px;
-    --buttonheight: 35px
+    --buttonheight: 35px;
+    position: relative;
+    bottom: 25px;
+    
+   
 
 }
 
@@ -49,11 +62,13 @@ margin-right: 400px ;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
     border-style: hidden;
-    background-color: #FF0000;
+    background-color: var(--universal-color);
     color: #fff;
+    cursor: pointer;
 }
 
 #signupbutton {
+
     width: var(--buttonwidth);
     height: var(--buttonheight);
     border-radius: 50px;
@@ -61,7 +76,23 @@ margin-right: 400px ;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
-    border: solid 1px #FF0000;
+    border: solid 1px  var(--universal-color);
     background-color: #fff;
-    color:#FF0000;
+    color: var(--universal-color);
+    cursor: pointer;
+
+    
+}
+
+#signinbutton:hover {
+
+    background-color:#fff;
+    color:  var(--universal-color);
+    border: solid  var(--universal-color) 1px;
+}
+
+#signupbutton:hover {
+
+    background-color:  var(--universal-color);
+    color:#fff
 }
