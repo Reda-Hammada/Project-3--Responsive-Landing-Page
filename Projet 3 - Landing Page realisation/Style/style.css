@@ -7,6 +7,10 @@
     padding: 0;
 }
 
+body {
+
+    overflow-x: hidden ;
+}
 
 :root {
 
@@ -17,6 +21,7 @@
 
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
 
 }
 
@@ -50,6 +55,7 @@ margin-right: 400px ;
     position: relative;
     bottom: 25px;
     font-size: 1.3rem;   
+    width: 100%;
    
 
 }
@@ -106,6 +112,7 @@ margin-right: 400px ;
     font-size: 1.8rem;
     margin-top: 4rem;
     flex-wrap: wrap;
+    width: 100%;
 }
 
  .introcontainer #worldpsan {
@@ -127,3 +134,47 @@ margin-right: 400px ;
 } /* intro ends */
 
 
+/* features starts */
+
+#features-heading{
+
+    text-align: center;
+    margin-top: 4rem;
+    font-family: var(--universal-font);
+    font-size: 2rem;
+}
+
+#worldheading {
+
+    color: var(--universal-color)
+}
+.features-container {
+
+    display: flex;
+    justify-content: space-evenly ;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.secure-container {
+
+    border-right: solid 2px #000 ;
+    padding-right: 50px;
+    font-family: var(--universal-font);
+}
+
+#secureinternet {
+
+    color: var(--universal-color);
+    text-align: center;
+
+}
+
+.secure-container p {
+
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.
