@@ -132,7 +132,16 @@ margin-right: 400px ;
 
     position: relative;
     bottom: 10px;
-} /* intro ends */
+
+}
+
+
+  #playstore, 
+  #appstore {
+
+    cursor: pointer;
+      
+  } /* intro ends */
 
 
 /* features starts */
@@ -142,7 +151,7 @@ margin-right: 400px ;
     text-align: center;
     margin-top: 8rem;
     font-family: var(--universal-font);
-    font-size: 2rem;
+    font-size: 2.4rem;
 }
 
 #worldheading {
