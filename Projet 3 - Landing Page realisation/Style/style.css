@@ -98,7 +98,7 @@ margin-right: 400px ;
     color:#fff;
 }  /*  navbar ends */
 
-.introcontainer {
+.introcontainer { /* intro starts */
 
     display: flex;
     justify-content: space-evenly;
@@ -124,4 +124,6 @@ margin-right: 400px ;
 
     position: relative;
     bottom: 10px;
-}
+} /* intro ends */
+
+
