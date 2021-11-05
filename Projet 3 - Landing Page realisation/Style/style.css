@@ -94,5 +94,11 @@ margin-right: 400px ;
 #signupbutton:hover {
 
     background-color:  var(--universal-color);
-    color:#fff
+    color:#fff;
+}
+
+.introcontainer {
+
+    display: flex;
+    justify-content: space-evenly;
 }
