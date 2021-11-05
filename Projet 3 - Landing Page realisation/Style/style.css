@@ -10,6 +10,7 @@
 body {
 
     overflow-x: hidden ;
+    height: 5000px;
 }
 
 :root {
@@ -139,7 +140,7 @@ margin-right: 400px ;
 #features-heading{
 
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 8rem;
     font-family: var(--universal-font);
     font-size: 2rem;
 }
@@ -152,9 +153,9 @@ margin-right: 400px ;
 
     display: flex;
     justify-content: space-evenly ;
-    margin-top: 3rem;
-    flex-wrap: wrap;
+    margin-top: 6rem;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .secure-container {
@@ -162,19 +163,65 @@ margin-right: 400px ;
     border-right: solid 2px #000 ;
     padding-right: 50px;
     font-family: var(--universal-font);
+    width: 30%;
+
 }
 
 #secureinternet {
 
     color: var(--universal-color);
     text-align: center;
-
+    font-size: 1.8rem;
 }
 
 .secure-container p {
 
     text-align: center;
     padding-top: 1rem;
+    font-size: 1.5rem;
 }
 
-.
+.fastestvpn-container {
+
+    border-right: solid 2px #000;
+    padding-right: 50px;
+    font-family: var(--universal-font);
+    width: 30%;
+}
+
+.fastestvpn-container p {
+
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+
+#fastestvpn {
+
+    text-align: center;
+    color: var(--universal-color);
+    font-size: 1.8rem;
+}
+
+
+.strictnologs-container {
+
+    width: 20%;
+    padding-right: 50px;
+    font-family: var(--universal-font);
+}
+
+
+.strictnologs-container p {
+
+    text-align: center;
+    padding-top: 1rem ;
+    font-size: 1.5rem;
+}
+
+#strictno-logs {
+
+    text-align: center;
+    color: var(--universal-color);
+    font-size: 1.8rem;
+}
