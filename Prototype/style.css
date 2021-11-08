@@ -1,0 +1,12 @@
+header nav ul  {
+
+    display: flex;
+    list-style: none;
+    background-color: greenyellow;
+}
+
+
+aside {
+
+    background-color: green;
+}
