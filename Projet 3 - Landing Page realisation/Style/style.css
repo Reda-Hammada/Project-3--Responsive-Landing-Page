@@ -342,5 +342,21 @@ font-size: 30px;
 .subscribe-container {
 
     font-family: var(--universal-font);
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    margin-top: 60px;
 
 }
+
+.subscribe-container form #email {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: grey;
+    margin-left: 200px;
+    border-style: ridge;
+
+}
+
+.subscribe-container input {}
