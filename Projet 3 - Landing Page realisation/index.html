@@ -4,27 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/flexboxgrid.css">
     <title>World VPN - Fast and Secure Internet</title>
 </head>
-<body>
+<body class="container">
     <header>
-        <nav>
-            <div>
+        <nav class="nav-container">
+            <div class="image-container">
                 <img src="Images/world-vpn (2) 1 (1).svg" alt="Logo">
             </div>
-            
-            <ul>
-                <li>Features</li>
-                <li>Pricing</li>
-                <li>Subscribe</li>    
-            </ul>
-            <button>Sign In</button>
-            <button>Sign Up</button>
+            <div class="navlist">
+                <ul>
+                    <li>Features</li>
+                    <li>Pricing</li>
+                    <li>Subscribe</li>    
+                </ul>
+            </div>
+            <div class="button-container">
+                <button id="siginbutton">Sign In</button>
+                <button id="signupbutton">Sign Up</button>
+            </div>
         </nav>
     </header>
     <main>
-        <section>
-            <div>
+        <section class="row">
+            <div class="col-xs-12 col-md-6 col-lg-6">
                 <h1>Download WORLD VPN<br>
                     worldwide server<br>
                     network.</h1>
@@ -34,27 +39,27 @@
                 <img src="Images/Badge.png" alt="playsotre">
                 <img src="Images/Badge (1).png" alt="appstore">
             </div>
-            <div>
-                <img src="Images/Illustration 1.jpg" alt="illustrator">
+            <div class="col-xs-12 col-md-6 col-lg-6">
+                    <img src="Images/Illustration 1.jpg" alt="illustrator">
             </div>
-        </section>
-        <section>
+        
+        <section class="row features-container">
             <h2>Why to choose <span>WORlD</span> VPN ?</h2>
-            <div>
+            <div class="col-xs-12 col-md-4 col-lg-4">
                 <h3>Secure Internet</h3>
                 <p>Biggest benefit of World VPN<br>
                    All your data stays safe behind<br>
                    a wall of next generation<br>
                     encryption.</p>
             </div>
-            <div>
+            <div class="col-xs-12 col-md-4 col-lg-4">
                 <h3>Fastest VPN</h3>
                 <p>You don't need to sacrifice<br>
                    speed for better security<br>
                    Our virtual private network<br>
                    gives both.</p>
             </div>
-            <div>
+            <div class="col-xs-12 col-md-4 col-lg-4">
                 <h3>Strict no-logs Policy</h3>
                 <p>We don't track,collect, or<br>
                    share your private data.<br>
