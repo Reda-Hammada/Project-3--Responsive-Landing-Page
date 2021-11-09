@@ -70,10 +70,18 @@ cursor: pointer;
     cursor: pointer;
 }
 
-/* features starts */
+/** navbar Ends **/
+/** intro starts **/
 
-.features-container {
+.image-flexitem {
 
-    width: 100%;
-    margin-top: 50px;
+    order:0;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .image-flexitem {
+
+        display: none;
+    }
 }
