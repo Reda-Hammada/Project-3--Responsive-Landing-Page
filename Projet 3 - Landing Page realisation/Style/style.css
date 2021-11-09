@@ -39,7 +39,7 @@
 
 .button-container {
 
-  margin-top: 40px;
+  margin-top: 34px;
 }
 #signupbutton {
  border-radius: 50px ;
@@ -47,11 +47,11 @@
  -moz-border-radius: 50px ;
  -ms-border-radius: 50px ;
  -o-border-radius: 50px ;
- background-color: var(--universal-color);
- color: #fff;
+ background-color: #fff;
+ color: var(--universal-color);
+ border: solid var(--universal-color) 1px;
  width: 100px;
  height: 35px;
-border-style: none;
 cursor: pointer;
 }
 
@@ -62,12 +62,12 @@ cursor: pointer;
     -moz-border-radius: 50px ;
     -ms-border-radius: 50px ;
     -o-border-radius: 50px ;
-    background-color: #fff;
-    border: solid var(--universal-color) 1px;
-    color: var(--universal-color);
+    background-color:var(--universal-color) ;
+    color: #fff;
     width: 100px;
     height: 35px;
     cursor: pointer;
+    border-style: none;
 }
 
 /** navbar Ends **/
