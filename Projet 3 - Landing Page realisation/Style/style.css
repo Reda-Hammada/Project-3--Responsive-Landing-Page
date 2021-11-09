@@ -7,6 +7,11 @@
     padding: 0;
 }
 
+body {
+
+    height: 3000px;
+}
+
 :root { 
 
     --universal-font: 'Roboto', sans-serif;
@@ -224,21 +229,108 @@ font-size: 30px;
     list-style: none;
     text-align: center;
     opacity: 0.7;
+    font-size: 20px;
 }
 
 .plans-container h3 {
 
     text-align: center;
     margin-bottom: 25px;
+    font-size: 25px;
 }
 
 .plans-container p {
     text-align: center;
     margin-bottom: 15px;
+    padding-top: 10px;
+    font-size: 20px;
+    
 }
 
-.free-container {
+.plans-container span {
 
- 
+    opacity: 0.6;
+}
 
+.subfree-container {
+
+    border: solid 1px grey;
+    width: 250px;
+    height: 350px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+
+.subfree-container button {
+
+    margin: auto;
+    border: solid 1px var(--universal-color);
+    color: var(--universal-color);
+    background-color: #fff;
+    width: 105px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 74px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.substandard-container {
+
+    border: solid 1px grey;
+    width: 250px;
+    height: 350px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.substandard-container button {
+
+    margin: auto;
+    border: solid 1px var(--universal-color);
+    color: var(--universal-color);
+    background-color: #fff;
+    width: 105px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 74px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.subpremium-container {
+
+    border: solid 1px grey;
+    width: 250px;
+    height: 350px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin: auto;
+    border-radius: 20px;
+    
+}
+
+
+.subpremium-container button {
+
+    margin: auto;
+    border: solid 1px var(--universal-color);
+    color: var(--universal-color);
+    background-color: #fff;
+    width: 105px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 74px;
+    margin-top: 14px;
+    cursor: pointer;
 }
