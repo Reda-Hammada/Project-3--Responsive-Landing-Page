@@ -8,4 +8,12 @@
         
         display: none;
     }
+
+
+    
+
+    .subscribe-container form #bt {
+
+        margin-top: 30px;
+    }
 }

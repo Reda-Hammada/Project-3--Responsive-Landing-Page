@@ -342,9 +342,21 @@ font-size: 30px;
 .subscribe-container {
 
     font-family: var(--universal-font);
-   
     margin-top: 60px;
+    width: 100%;
+   
 
+}
+
+.subscribe-container h2 {
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subscribe-container form {
+
+    text-align: center;
 }
 
 .subscribe-container form #email {
@@ -353,6 +365,7 @@ font-size: 30px;
     border-radius: 5px;
     border-color: grey;
     border-style: ridge;
+  
 
 }
 
@@ -369,3 +382,8 @@ font-size: 30px;
     font-size: 15px;
     cursor: pointer;
     }
+
+
+    .subscribe-container form #bt:hover {
+
+     }
