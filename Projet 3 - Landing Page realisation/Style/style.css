@@ -132,6 +132,7 @@ cursor: pointer;
     margin-right: auto;
 }
 
+
 .hd2container {
 
     font-family:var(--universal-font);
@@ -281,16 +282,16 @@ font-size: 30px;
 
 .subfree-container button {
 
-    margin: auto;
     border: solid 1px var(--universal-color);
     color: var(--universal-color);
     background-color: #fff;
     width: 105px;
     height: 30px;
     border-radius: 20px;
-    margin-left: 74px;
-    margin-top: 14px;
     cursor: pointer;
+    margin-top: 20px;
+   margin-left: 75px;
+
 }
 
 .substandard-container {
@@ -303,6 +304,25 @@ font-size: 30px;
     margin: auto;
     border-radius: 20px;
     margin-bottom: 30px;
+}
+.subfree-container span {
+
+    font-weight: bolder;
+     color: #000;
+}
+
+.subpremium-container span {
+
+
+    font-weight: bolder;
+     color: #000;
+}
+
+.substandard-container span {
+
+
+    font-weight: bolder;
+     color: #000;
 }
 
 
@@ -420,13 +440,29 @@ font-size: 30px;
      .world-footer {
 
         margin-top: 40px;
+        font-family: var(--universal-font);
      }
 
+     .world-footer p {
+
+        padding-bottom: 10px;
+     }
+
+     .world-footer span {
+
+        font-weight: bold;
+     }
+
+     .world-footer img {
+
+        cursor: pointer;
+     }
 
      .products-footer-list {
 
         margin-top: 80px;
         font-family: var(--universal-font);
+        padding-bottom: 20px;
      }
 
      .products-footer-list p {
@@ -440,4 +476,38 @@ font-size: 30px;
 
         list-style-type: none;
         cursor: pointer;
+     }
+
+     .engage-footer-list {
+
+        margin-top: 80px;
+        font-family: var(--universal-font);
+        padding-bottom: 20px;
+     }
+
+     .engage-footer-list  p {
+
+        font-size: 20px;
+        font-weight: 800;
+        padding-bottom: 10px;
+     }
+
+     .engage-footer-list  ul li {
+
+        list-style-type: none;
+        cursor: pointer;
+     }
+
+     .copyrights-container {
+
+        background-color: #000;
+        color: #fff;
+        font-family: var(--universal-font);
+        width: 100%;
+        height: 30px
+     }
+
+     .copyrights-container p {
+
+        padding-top: 6px;
      }
