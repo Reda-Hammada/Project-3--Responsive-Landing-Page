@@ -7,10 +7,7 @@
     padding: 0;
 }
 
-body {
 
-    height: 3000px;
-}
 
 :root { 
 
@@ -405,4 +402,42 @@ font-size: 30px;
     .subscribe-container form #bt:hover {
 
         background-color: #FF8300;
+
+     } /* subscribe ends */
+
+
+     /* footer */
+
+     footer {
+
+        border: solid 2px #000;
+        width: 100%;
+        height: 13%;
+        margin-top: 60px;
+
+     }
+
+     .world-footer {
+
+        margin-top: 40px;
+     }
+
+
+     .products-footer-list {
+
+        margin-top: 80px;
+        font-family: var(--universal-font);
+     }
+
+     .products-footer-list p {
+
+        font-size: 20px;
+        font-weight: 800;
+        padding-bottom: 10px;
+     }
+
+     .products-footer-list ul li {
+
+        list-style-type: none;
+        cursor: pointer;
      }
