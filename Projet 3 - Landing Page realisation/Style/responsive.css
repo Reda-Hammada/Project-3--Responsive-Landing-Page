@@ -25,3 +25,22 @@
         text-align: center;
     }
 }
+
+@media only screen and (min-width: 800px) and (max-width: 1024px) {
+
+    .navlist {
+        
+        display: none;
+}
+
+.image-container {
+
+    text-align: center;
+
+
+}
+.button-container {
+text-align: center;
+}
+
+}
