@@ -18,8 +18,7 @@ body {
     --universal-color: #FF0000;
 }
 .nav-container { /* navbar starts */
-    display: flex;
-    width: 100%;
+    
     justify-content: space-evenly;
     font-family: var(--universal-font);
 
