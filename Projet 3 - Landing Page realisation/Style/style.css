@@ -125,6 +125,16 @@ cursor: pointer;
     
 }
 
+#playstore {
+
+    cursor: pointer;
+}
+
+#appstore {
+
+    cursor: pointer;
+}
+
 /** intro ends **/
 
 .features-container { /* Features starts */
