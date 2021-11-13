@@ -10,6 +10,7 @@
 body {
 
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 :root { 
@@ -91,6 +92,13 @@ cursor: pointer;
 
     background-color: #FF8300;
 }
+#scroll-anchor {
+
+    text-decoration: none;
+    opacity: 0.7;
+    color:#000
+
+}
 
 /** navbar Ends **/
 /** intro starts **/
@@ -137,7 +145,7 @@ cursor: pointer;
 
 /** intro ends **/
 
-.features-container { /* Features starts */
+#features-container { /* Features starts */
 
     margin-top: 90px;
     font-family:var(--universal-font);
@@ -246,13 +254,13 @@ font-size: 30px;
     text-align: center;
     padding-top: 20px;
 }
-.plans-container {
+#plans-container {
 
     margin-top: 60px;
     font-family: var(--universal-font);
 }
 
-.plans-container ul li {
+#plans-container ul li {
 
     list-style: none;
     text-align: center;
@@ -260,14 +268,14 @@ font-size: 30px;
     font-size: 20px;
 }
 
-.plans-container h3 {
+#plans-container h3 {
 
     text-align: center;
     margin-bottom: 25px;
     font-size: 25px;
 }
 
-.plans-container p {
+#plans-container p {
     text-align: center;
     margin-bottom: 15px;
     padding-top: 10px;
@@ -275,7 +283,7 @@ font-size: 30px;
     
 }
 
-.plans-container span {
+#plans-container span {
 
     opacity: 0.6;
 }
@@ -386,7 +394,7 @@ font-size: 30px;
 
 /* subscribe starts */
 
-.subscribe-container {
+#subscribe-container {
 
     font-family: var(--universal-font);
     margin-top: 60px;
@@ -396,18 +404,18 @@ font-size: 30px;
 
 }
 
-.subscribe-container h2 {
+#subscribe-container h2 {
 
     text-align: center;
     margin-bottom: 20px;
 }
 
-.subscribe-container form {
+#subscribe-container form {
 
     text-align: center;
 }
 
-.subscribe-container form #email {
+#subscribe-container form #email {
     width: 400px;
     height: 40px;
     border-radius: 5px;
@@ -417,7 +425,7 @@ font-size: 30px;
 
 }
 
-.subscribe-container form #bt {
+#subscribe-container form #bt {
 
     background-color: var(--universal-color);
     width: 120px;
